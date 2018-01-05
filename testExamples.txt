@@ -1,0 +1,110 @@
+// These are the following test examples to test the new functions.
+
+// Testing for the forward message function:
+1
+#
+hello world!
+h
+// The message has been left in the first mailbox.
+1
+#
+1
+#
+1
+// Now in the message menu
+// Test the original use case.
+// Forward it to mailbox #2
+4
+2
+#
+// Message should be in mailbox #2.
+// Hang up and check mailbox #2.
+h
+2
+#
+2
+#
+1
+1
+// Should play “hello world!”
+// Now let’s try forwarding to an invalid mailbox.
+// We are still in the message menu.
+4
+1
+0
+0
+#
+// We should get the message about the mailbox number being invalid.
+// Now let’s try returning to the message menu.
+0
+#
+// We should be in the message menu. Let’s try hanging up while 
+// in the forward message state (it should just reset the connection).
+4
+h
+// We have reset the connection. Now to try forwarding a message
+// when the mailbox has no messages.
+3
+#
+3
+#
+1
+1 // This is just to show that the mailbox is empty
+4
+// It should say there is no message to forward.
+q
+// End of testing the forward message function.
+
+
+// Testing for the broadcast a message to all mailboxes:
+// First we test to see if it stores an empty message
+0
+0
+#
+h
+// Check mailbox 1
+1
+#
+1
+#
+1
+1
+// It should say no messages.
+// Now to test the invalid dial (‘#’)
+h
+0
+0
+#
+#
+hello
+#
+h
+// Should have gotten some warning messages about dialing ‘#’
+// Now to see if the message was stored properly.
+1
+5
+#
+1
+5
+#
+1
+1
+// We should have a message saying “hello”
+// Now to just broadcast a message to all mailboxes.
+h
+0
+0
+#
+did it work?
+h
+// Check the 4th mailbox.
+4
+#
+4
+#
+1
+1
+// We should have the message that says “did it work?”
+
+
+
