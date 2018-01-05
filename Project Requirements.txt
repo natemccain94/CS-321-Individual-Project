@@ -1,0 +1,32 @@
+In this project, you are asked to enhance the Voice Mail System of Chapter 2. The source code of the VoiceMail System can be downloaded from within canvas.uah.edu.
+
+ 
+
+The purpose of this project is to:
+
+Familiarize you with netbean IDE.
+Understand a given program.
+Get hands on experiences in developing use cases, drawing sequence diagram, class diagram and state diagram
+Design and write small java programs.
+Practice Javadoc tool.
+ 
+
+Requirements:
+
+Read and understand the program
+Run the program using NetBeans
+Enhance the system to support the following two operations: forward a message to a specified mailbox; broadcast a message to all the mailboxes.  
+You need to write down the use cases for the two operations, as in Section 2.12.1
+You need to draw UML class diagram for your enhanced Voice Mail System if it is different from Figure 16 in page 71. If it is not different, then you need to indicate that it is the same UML class diagram as in the book.
+You need to draw sequence diagram as Figure 17 and 18 for the use cases. If they are the same as in the book, then you need to indicate that as well.
+You need to draw a state diagram as Figure 19 in page 74. If they are the same as in the book, then you need to indicate that as well.
+Provide java documentation for the methods you add.
+ 
+
+ 
+
+Submission: Online submission.  Due date: Feb. 3rd. Your submission should be in a zip files which contains the entire Netbean project directory for your modified program, name the zipfile as YourLoginNameProjectOne.zip
+
+ 
+
+Grading: If you only finish one use case, the full credit for this project will be 100/100.  If you finish two use cases, then you will get 10% bonus for this project (i.e. 110/100).  The grading will be based on:  Specifications (run & meets all specifications); readability (code is well organized and easy to follow); documentation (documentation is clearly written & explains what the programs as a whole should do; comments blocks introducing each newly added function); architecture (structure of the program) and usability etc. In order to help the grader to grade, please include your tests in details in your turned in zip file. You could name that file as testExamples. 
